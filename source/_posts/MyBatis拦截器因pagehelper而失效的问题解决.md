@@ -5,8 +5,6 @@ tags: [CAT, 监控, Mybatis拦截器, Mybatis, 分页]
 ---
 
 
-# 
-
 `pagehelper`是github开源的一款MyBatis分页插件，该插件是通过MyBatis拦截器实现的。然而使用`pagehelper`有可能会导致其他拦截器失效，今天就遇到了这个问题。
 
 ## 事件经过
